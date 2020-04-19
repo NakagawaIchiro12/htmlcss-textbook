@@ -18,7 +18,9 @@ Atomエディタの画面上のナビゲーションメニューから、
 
 ### ダウンロードページ
 https://job555.info/html-css/
+
 ダウンロードページのパスワード：htmlcss
+
 入れる素材は
 1. header-bg.jpg
 2. profile2.jpg
@@ -32,6 +34,12 @@ https://job555.info/html-css/
 自分で用意しても大丈夫です。
 （自分で用意した方は、ファイル名と、ファイルのサイズを揃えておくと
 今後の作業が進めやすいと思います。）
+
+##### ファイル名とファイルサイズ
+- header-bg.jpg
+  - ファイルサイズ : 1705px x 544px
+- profile2.jpg
+  - ファイルサイズ : 500px x 500px
 
 ## 自己紹介ページのHTMLを作成します。
 ### 先ほど作成したhtmlcss-workのフォルダに、mysite.htmlを作成します。
