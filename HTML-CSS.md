@@ -18,7 +18,9 @@ Atomエディタの画面上のナビゲーションメニューから、
 
 ### ダウンロードページ
 https://job555.info/html-css/
+
 ダウンロードページのパスワード：htmlcss
+
 入れる素材は
 1. header-bg.jpg
 2. profile2.jpg
@@ -33,6 +35,12 @@ https://job555.info/html-css/
 （自分で用意した方は、ファイル名と、ファイルのサイズを揃えておくと
 今後の作業が進めやすいと思います。）
 
+##### ファイル名とファイルサイズ
+- header-bg.jpg
+  - ファイルサイズ : 1705px x 544px
+- profile2.jpg
+  - ファイルサイズ : 500px x 500px
+
 ## 自己紹介ページのHTMLを作成します。
 ### 先ほど作成したhtmlcss-workのフォルダに、mysite.htmlを作成します。
 htmlcss-workフォルダ上で右クリック＞新規ファイル＞htmlcss-work/mysite.html
@@ -41,6 +49,7 @@ htmlcss-workフォルダ上で右クリック＞新規ファイル＞htmlcss-wor
 では作っていきましょう。
 まず、　半角で　「!」　を入力し、tabキーを入力することで、下記の内容が自動で入力されます。
 
+```html:mysite.html
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -53,13 +62,18 @@ htmlcss-workフォルダ上で右クリック＞新規ファイル＞htmlcss-wor
 
     </body>
     </html>
+```
+
+このページでは、全てmysite.htmlにコードを書いていきます。
 
 次に、メタタグを２行削除します。
 削除するのは下記の２行です。
 headタグの下にmetaタグが３行あります。そのうちの下２行です。
 
+```html:mysite.html
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+```
 
 そして、２行目のhtml lang="en"　をhtml lang="ja"に変更し、ホームページの言語の属性を英語→日本語に変更します。
 
@@ -70,6 +84,7 @@ previewタブの画面には　「hello world」と表示だけされたはず�
 
 ここまでのコードは以下の通りになりました。
 
+```html:mysite.html
     <!DOCTYPE html>
     <html lang="ja">
     <head>
@@ -80,6 +95,7 @@ previewタブの画面には　「hello world」と表示だけされたはず�
     hello world
     </body>
     </html>
+```
 
 ### ここまで行なった作業は以下の通り
 - メタタグを２行削除
@@ -94,15 +110,18 @@ previewタブの画面には　「hello world」と表示だけされたはず�
 
 ではまずbodyタグ内にヘッダータグを入力していきます。
 
+```html:mysite.html
     <body>
       <header>
 
       </header>
     hello world
     </body>
+```
 
  そしてその中にdivタグを作ってまとまりを作っていきます。
 
+```html:mysite.html
      <body>
        <header>
           <div>
@@ -111,9 +130,11 @@ previewタブの画面には　「hello world」と表示だけされたはず�
        </header>
      hello world
      </body>
+```
 
  **そのdivタグにはtopというクラスをつけておきます。**
 
+```html:mysite.html
      <body>
        <header>
           <div class="top">
@@ -122,6 +143,7 @@ previewタブの画面には　「hello world」と表示だけされたはず�
        </header>
      hello world
      </body>
+```
 
 
 このように記述してみてください。
@@ -131,17 +153,22 @@ previewタブの画面には　「hello world」と表示だけされたはず�
 id="icon"　の目印をつけて、あとでデザインしやすいようにします。
 
 
+```html:mysite.html
     <img src="profile.jpg" id="icon">
+```
 
 imgタグの次に入力するのが、名前になります。
 名前はspanタグで作ってみましょう。
 
+```html:mysite.html
     <span id="myname">中川　いちろう</span>
+```
 
 
 その次に書くのが、ナビゲーションです。
 自分のブログや、Twitter、Instagram、Facebookにリンクできるようにします。
 
+```html:mysite.html
     <nav>
       <ul>
         <li>blog</li>
@@ -150,6 +177,7 @@ imgタグの次に入力するのが、名前になります。
         <li>Facebook</li>
       </ul>
     </nav>
+```
 
 ここまで記載することで、
 - blog
@@ -164,6 +192,7 @@ imgタグの次に入力するのが、名前になります。
 他も同じように囲みましょう。
 
 
+```html:mysite.html
     <nav>
       <ul>
         <li><a href="https://job555.info">blog</a></li>
@@ -172,6 +201,7 @@ imgタグの次に入力するのが、名前になります。
         <li><a href="https://www.facebook.com/nakagawa.ichiro">Facebook</a></li>
       </ul>
     </nav>
+```
 
 こうすることで、リンクになります。
 しかし、このリンクをクリックした後このページには戻ってこないことが
@@ -180,11 +210,14 @@ imgタグの次に入力するのが、名前になります。
 それでは、このページをしっかりみてもらえないので
 リンクをクリックした時に、別ウインドウで開くようにします。
 
+```html:mysite.html
     <a href="https://job555.info" target="_blank">blog</a>
+```
 
 と上記のように、　target="_blank" を追加します。必ず前の記述から
 半角スペースが入っているように注意して入力してください。
 
+```html:mysite.html
     <nav>
       <ul>
         <li><a href="https://job555.info" target="_blank">blog</a></li>
@@ -193,6 +226,7 @@ imgタグの次に入力するのが、名前になります。
         <li><a href="https://www.facebook.com/nakagawa.ichiro" target="_blank">Facebook</a></li>
       </ul>
     </nav>
+```
 
 これで、blog,twitter,instagram,facebookの4つとも、新しい
 ページで開くようになりました。
@@ -201,6 +235,8 @@ imgタグの次に入力するのが、名前になります。
 次回で、ページの中身を作っていきます。
 
 ### ここまででできたコードはこんな感じです。
+
+```html:mysite.html
     <!DOCTYPE html>
     <html lang="ja">
     <head>
@@ -225,41 +261,50 @@ imgタグの次に入力するのが、名前になります。
     hello world
     </body>
     </html>
-お疲れ様でした。
+```
+
 
 # 中身の部分とフッターの部分を作成していきます。
 
 headerタグの下に、divタグでまとまりを作っていきます。
 divタグにcontainerとidをつけることで、まとまりにします。
 
+```html:mysite.html
     <div class="container">
 
     </div>
+```
 
 そしてそのcontainerクラスの中に、h2タグで囲んで「自己紹介」
 とタイトルをつけます。
 
+```html:mysite.html
     <div class="container">
       <h2>自己紹介</h2>
 
     </div>
+```
 
 そして、自己紹介の下に、またdivタグでまとまりを作ります。
 クラス名はprofileとします。/divの閉じタグも、divタグを作るときは
 常に忘れないようにしましょう。
 
+```html:mysite.html
     <div class="container">
       <h2>自己紹介</h2>
         <div class="profile">
 
         </div>
     </div>
+```
+
 
 これで、div class="container"のかたまりの中に、
 div class="profile"のかたまりができました。
 
 その中に、pタグを使って、自分の自己紹介文を書いていきましょう。
 
+```html:mysite.html
     <p>愛知県で初の有機JASニンジンを作り、高級スーパーフランテ２４店舗に流通。
     年間1200人が受講する「健康セミナー」と有機JASニンジンのコラボ「家族で遊ぶ収穫祭」を10年開催中
     副業のアフィリエイトで月収10万円を達成、Webディレクターとして
@@ -267,12 +312,15 @@ div class="profile"のかたまりができました。
     1986年10月16日生まれ
     愛知県出身
     名古屋経済大学管理栄養学科</p>
+```
+
 
 自己紹介を書いたpタグを　div class="profile"の中に入れます。
 見にくければ改行しちゃってください。HTML上で改行しても、見た目には反映されないので大丈夫です。
 もちろん最初にpタグを作成し、自己紹介を書いていく順番でも
 大丈夫です。
 
+```html:mysite.html
     <div class="container">
       <h2>自己紹介</h2>
         <div class="profile">
@@ -285,6 +333,8 @@ div class="profile"のかたまりができました。
           名古屋経済大学管理栄養学科</p>
         </div>
     </div>
+```
+
 
 このようになりますね。
 毎回、インデントを整えることも忘れないでください。
@@ -292,6 +342,7 @@ div class="profile"のかたまりができました。
 実際のHTMLで改行するためにはbrタグを入れます。
 今回はbrタグを2つ挿入することにします。
 
+```html:mysite.html
     <div class="container">
       <h2>自己紹介</h2>
         <div class="profile">
@@ -306,6 +357,8 @@ div class="profile"のかたまりができました。
           名古屋経済大学管理栄養学科</p>
         </div>
     </div>
+```
+
 
 ここまで入力すると、Previewでは次のようになっていると思います。
 ![img01](https://job555.info/wp-content/uploads/2020/04/img01.png)
@@ -316,6 +369,7 @@ div class="profile"のかたまりができました。
 
 ついでに、生年月日の下にもbrタグを2つ入れて読みやすくします。
 
+```html:mysite.html
     <div class="container">
       <h2>自己紹介</h2>
         <div class="profile">
@@ -333,6 +387,8 @@ div class="profile"のかたまりができました。
           名古屋経済大学管理栄養学科</p>
         </div>
     </div>
+```
+
 すると、このようになりました。
 ![img02](https://job555.info/wp-content/uploads/2020/04/img02.png)
 
@@ -341,6 +397,7 @@ div class="profile"のかたまりができました。
 生年月日の部分をbrタグで改行しましたが、若干狭すぎます。
 brタグをやめて、１行ずつpタグで囲んでみましょう。
 
+```html:mysite.html
     <div class="container">
       <h2>自己紹介</h2>
         <div class="profile">
@@ -356,10 +413,13 @@ brタグをやめて、１行ずつpタグで囲んでみましょう。
           <p>名古屋経済大学管理栄養学科</p></p>
         </div>
     </div>
+```
+
 
 最後の大学の部分にpの閉じタグが2つ重なってしまいました。
 これでは見た目も良くないので、hrタグの前にカットしてペーストします。
 
+```html:mysite.html
     <div class="container">
       <h2>自己紹介</h2>
         <div class="profile">
@@ -376,6 +436,7 @@ brタグをやめて、１行ずつpタグで囲んでみましょう。
           <p>名古屋経済大学管理栄養学科</p>
         </div>
     </div>
+```
 
 これでキレイに整いました。
 これで、水平線の下に、誕生日と、出身地と所属していた大学がわかるようになりました。
@@ -391,14 +452,17 @@ brタグをやめて、１行ずつpタグで囲んでみましょう。
 
 入力するフッタータグは以下の通りです。
 
+```html:mysite.html
     <footer>
     <p>Nakagawa ichiro</p>
 
     </footer>
+```
 
 こんな感じです。
 実際に入力するとこうなります。
 
+```html:mysite.html
     <div class="container">
       <h2>自己紹介</h2>
         <div class="profile">
@@ -420,6 +484,7 @@ brタグをやめて、１行ずつpタグで囲んでみましょう。
     <p>Nakagawa ichiro</p>
 
     </footer>
+```
 
 フッターの部分にはコピーライトといって、このページの
 著作権は私にありますよ。という表示になっています。
@@ -427,16 +492,14 @@ brタグをやめて、１行ずつpタグで囲んでみましょう。
 コピーライトは &copy; を名前の前に入力します。
 ;の後に半角スペースを入れて、ちょうどいい隙間を空けておきましょう。
 
-
+```html:mysite.html
     <footer>
     <p>&copy; Nakagawa ichiro</p>
 
     </footer>
 
-<footer>
-<p>&copy; Nakagawa ichiro</p>
+```
 
-</footer>
 このように著作権のマークと自分の名前が表示されました。
 
 現段階では一切デザインをしていないので、見た目は整っていません。
@@ -460,20 +523,25 @@ brタグをやめて、１行ずつpタグで囲んでみましょう。
 そうしたら、mysite.htmlとmysite.cssを
 リンクするために、headタグの中にlinkタグを記入します。
 
+```html:mysite.html
     <link rel="stylesheet" href="mysite.css" type="text/css" />
+```
 
 入力すると、下記のようになります。
 
+```html:mysite.html
     <head>
       <link rel="stylesheet" href="mysite.css" type="text/css" />
       <meta charset="UTF-8">
       <title>自己紹介ページ</title>
     </head>
+```
 
 これで、CSSでデザインしていく準備が整いました。
 
 最後に、ここまで書いてきたコードを確認しておきましょう。
 
+```html:mysite.html
     <!DOCTYPE html>
     <html lang="ja">
     <head>
@@ -518,6 +586,7 @@ brタグをやめて、１行ずつpタグで囲んでみましょう。
     hello worlds
     </body>
     </html>
+```
 
 見た目はこんな感じになっていると思います。
 
@@ -527,12 +596,16 @@ brタグをやめて、１行ずつpタグで囲んでみましょう。
 ＊このお問い合わせの部分は、自分のお問い合わせが受けやすいSNSでいいと思います。
 ＊リンクはご自身のものを使ってください。
 
-<footer>
-<p>&copy; Nakagawa ichiro</p>
-<p>お問い合わせは<a href="https://twitter.com/nobuyasai2" target="_blank">Twitter</a>からどうぞ</p>
-</footer>
-</body>
-</html>
+```
+  <footer>
+    <p>&copy; Nakagawa ichiro</p>
+    <p>お問い合わせは<a href="https://twitter.com/nobuyasai2" target="_blank">Twitter</a>からどうぞ</p>
+  </footer>
+  </body>
+  </html>
+```
+
+
 ### 最後に、できたHTMLファイルを実際のWebブラウザで確認してみよう！
 Atomエディタタブの一番左側、projectタブから、作成したHTMLファイル
 今回は「mysite.html」を右クリックし、Finderから開くを選択します。
