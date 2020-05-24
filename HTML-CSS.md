@@ -73,9 +73,9 @@ htmlcss-workフォルダ上で右クリック＞新規ファイル＞htmlcss-wor
 
 では作っていきましょう。
 まず、　半角で　「!」　を入力します。
-![img-tag13]()
+![img-tag13](https://job555.info/wp-content/uploads/2020/05/img-tag13.png)
 tabキーを入力することで、下記の内容が自動で入力されます。
-![img-tag14]()
+![img-tag14](https://job555.info/wp-content/uploads/2020/05/img-tag14.png)
 
 ```html:mysite.html
     <!DOCTYPE html>
