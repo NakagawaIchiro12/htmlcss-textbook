@@ -23,19 +23,19 @@
 ### 前回作ったHTMLファイルを実際のWebブラウザで開きます。
 Atomエディタタブの一番左側、projectタブから、作成したHTMLファイル
 今回は「mysite.html」を右クリックし、Finderから開くを選択します。
-![img07](https://job555.info/wp-content/uploads/2020/04/img07.png)
+![img07](https://blog.job555.info/wp-content/uploads/2020/06/img-tag07.png)
 
 すると、下記画面が開きます
-![img08](https://job555.info/wp-content/uploads/2020/04/img08.png)
+![img08](https://blog.job555.info/wp-content/uploads/2020/06/img-tag08.png)
 
 Finderのウインドウから、「mysite.html」を右クリックし、
 このアプリケーションで開く＞Google Chrome　をクリックします。
 
 
-![img09](https://job555.info/wp-content/uploads/2020/04/img09.png)
+![img09](https://blog.job555.info/wp-content/uploads/2020/06/img-tag09.png)
 
 すると、Webブラウザでmysite.htmlが表示されました。
-![img10](https://job555.info/wp-content/uploads/2020/04/img10.png)
+![img10](https://blog.job555.info/wp-content/uploads/2020/06/img-tag10.pngg)
 
 これで、見たいHTMLファイルをブラウザで見ることができるようになりました！
 ## CSSを書いた後、デザインの反映を確認する方法

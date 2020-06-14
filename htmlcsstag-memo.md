@@ -101,7 +101,7 @@ titleタグ（タイトルタグ）とは、サイトやページにタイトル
 
 ### 属性とは
 
-![img-tag01](https://job555.info/wp-content/uploads/2020/05/img-tag01.png)
+![img-tag01](https://blog.job555.info/wp-content/uploads/2020/06/img-tag01.png)
 ```
 HTMLでは不等号の記号　”<”　と　”>”　ではさまれた英数字のタグと、開始タグから終了タグまでの全体をさす要素があります。この中で「属性」とは開始タグの中に記載されていて、タグの性質を細かく表現するものです。例えばあるフォントの色を指定したい場合とか、サイズを指定したい場合などが「属性」となり、色やサイズは属性に対する値として与えます。具体的な文法としては、開始タグの要素名がスペースで区切られた後に文字がある場合があります。それが、そのタグの属性を表し、さらに「＝」が続いている場合は文字や数値である値が入ります。
 
@@ -121,7 +121,7 @@ https://www.1101.com/dictionary/hobojisyo/kigou_yomikata.html
 **「プログラマーはいかにググって作れるか」**だったりしますので、クセにしていきましょう。
 
 ### headタグ　bodyタグ
-![img-tag02](https://job555.info/wp-content/uploads/2020/05/img-tag02.png)
+![img-tag02](https://blog.job555.info/wp-content/uploads/2020/06/img-tag02.png)
 ```
 <HEAD>～</HEAD>の間には、文書のタイトル等のヘッダ情報を記述します。 そして<BODY>～</BODY>の間には、実際にブラウザに表示される文書の本体を記述します。
 ```
@@ -235,7 +235,7 @@ h1タグは最も大きな見出しで、ウェブページの主題を表すの
   h2以下の見出しタグは何回使ってもOKです。基本的に記事本文ではh2〜h6を使うことになるでしょう。
 
 #### 実際に使われるh2タグとh3タグ
-![img-tag03](https://job555.info/wp-content/uploads/2020/05/img-tag03.png)
+![img-tag03](https://blog.job555.info/wp-content/uploads/2020/06/img-tag03.png)
 
 実際にブログやWebページで使うのはh2タグやh3タグがほとんどです。上の図のように、
 - h2で大セクションのタイトル
@@ -279,7 +279,7 @@ Pタグは、＜p＞～＜/p＞でマークアップすることで、段落を�
 例えばwebページを作成する時に、以下のように「見出し / 箇条書きリスト / 文章」という構成でページを作りたいとします。
 
 
-![img-tag04](https://job555.info/wp-content/uploads/2020/05/img-tag04.png)
+![img-tag04](https://blog.job555.info/wp-content/uploads/2020/06/img-tag04.png)
 
 
 しかし、ただテキストを書いただけでは、googleはどのようにブラウザに表示してよいかわかりません。そのため、この状態ではどのテキストもすべて同じようにブラウザに表示されてしまいます。
@@ -334,7 +334,7 @@ htmlでは「このタグで囲めば、その部分が〇〇で表示される�
 ### imgタグ，
 imgタグを使えば、下の画像のように、ブラウザに画像を表示させることができます。
 
-![img-tag05](https://job555.info/wp-content/uploads/2020/05/img-tag05.png)
+![img-tag05](https://blog.job555.info/wp-content/uploads/2020/06/img-tag05.png)
 
 
 では、基本的なimgタグの使い方を見ていきましょう。
@@ -415,7 +415,7 @@ olを使うと以下のように番号付の箇条書きになります。
 
 ulとliを使うと、各項目の先頭が黒ポチの箇条書きとなります（この黒ポチのデザインは変えることができます）。liタグは何回使ってもOKです。箇条書きの項目数分だけ増やしましょう。
 
-![img-tag06](https://job555.info/wp-content/uploads/2020/05/img-tag06.png)
+![img-tag06](https://blog.job555.info/wp-content/uploads/2020/06/img-tag06.png)
 
 
 ##### ulとolの違いは？
@@ -459,12 +459,12 @@ formタグはフォームを構成する部品を囲って、どのプログラ�
 Atomエディタの画面上のナビゲーションメニューから、
 
 ファイル＞プロジェクトフォルダを追加＞（別ウインドウが開きます）＞
-![img-tag07](https://job555.info/wp-content/uploads/2020/05/img-tag07.png)
+![img-tag07](https://blog.job555.info/wp-content/uploads/2020/06/img-tag07.png)
 （別ウインドウの左下）新規フォルダ（名前をform)＞の順に
-![img-tag08](https://job555.info/wp-content/uploads/2020/05/img-tag08.png)
+![img-tag08](https://blog.job555.info/wp-content/uploads/2020/06/img-tag08.png)
 新しく「form」と入力し、作成を押します。
 開くを押します。
-![img-tag09](https://job555.info/wp-content/uploads/2020/05/img-tag09.png)
+![img-tag09](https://blog.job555.info/wp-content/uploads/2020/06/img-tag09.png)
 
 
 
@@ -472,18 +472,18 @@ Atomエディタの画面上のナビゲーションメニューから、
 ## formをHTMLで作成します。
 ### 先ほど作成したFORMのフォルダに、form.htmlを作成します。
 htmlcss-workフォルダ上で右クリックします。
-![img-tag10](https://job555.info/wp-content/uploads/2020/05/img-tag10.png)
+![img-tag10](https://blog.job555.info/wp-content/uploads/2020/06/img-tag10.png)
 ＞新規ファイル＞form.htmlを入力します。入力したら、エンターキーを押します。
-![img-tag11](https://job555.info/wp-content/uploads/2020/05/img-tag11.png)
+![img-tag11](https://blog.job555.info/wp-content/uploads/2020/06/img-tag11.png)
 
 これで作成できました。
-![img-tag12](https://job555.info/wp-content/uploads/2020/05/img-tag12.png)
+![img-tag12](https://blog.job555.info/wp-content/uploads/2020/06/img-tag12.png)
 見にくいので、「Welcome」のタブは消しておきましょう。
 
 
 では作っていきましょう。
 まず、　半角で　「!」　を入力します。
-![img-tag13](https://job555.info/wp-content/uploads/2020/05/img-tag13.png)
+![img-tag13](https://blog.job555.info/wp-content/uploads/2020/06/img-tag13.png)
 
 tabキーを入力することで、下記の内容が自動で入力されます。
 
@@ -502,7 +502,7 @@ tabキーを入力することで、下記の内容が自動で入力されま�
     </html>
 ```
 
-![img-tag14](https://job555.info/wp-content/uploads/2020/05/img-tag14.png)
+![img-tag14](https://blog.job555.info/wp-content/uploads/2020/06/img-tag14.png)
 
 このページでは、全てform.htmlにコードを書いていきます。
 
@@ -515,24 +515,24 @@ headタグの下にmetaタグが３行あります。そのうちの下２行で
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 ```
-![img-tag15](https://job555.info/wp-content/uploads/2020/05/img-tag15.png)
+![img-tag15](https://blog.job555.info/wp-content/uploads/2020/06/img-tag15.png)
 削除できました。
-![img-tag16](https://job555.info/wp-content/uploads/2020/05/img-tag16.png)
+![img-tag16](https://blog.job555.info/wp-content/uploads/2020/06/img-tag16.png)
 
 そして、２行目のhtml lang="en"　
 をhtml lang="ja"に変更し、ホームページの言語の属性を英語→日本語に変更します。
-![img-tag17](https://job555.info/wp-content/uploads/2020/05/img-tag17.png)
+![img-tag17](https://blog.job555.info/wp-content/uploads/2020/06/img-tag17.png)
 en→jaに変更します。
-![img-tag18](https://job555.info/wp-content/uploads/2020/05/img-tag18.png)
+![img-tag18](https://blog.job555.info/wp-content/uploads/2020/06/img-tag18.png)
 変更できました。
 
 そして、５行目のtitleタグを　Document→form　に変更します。
-![img-tag19](https://job555.info/wp-content/uploads/2020/05/img-tag19.png)
+![img-tag19](https://blog.job555.info/wp-content/uploads/2020/06/img-tag19.png)
 変更できました。
 
 ここで、保存しておきましょう。
 Macの方は「⌘＋S（コマンド＋S）」で保存できます。
-![img-tag20](https://job555.info/wp-content/uploads/2020/05/img-tag20.png)
+![img-tag20](https://blog.job555.info/wp-content/uploads/2020/06/img-tag20.png)
 タブの右上の青丸ボタンがついている間は保存できていませんので、こまめに保存しておくのをお勧めします。
 
 bodyタグの中に下記を入力していきましょう
@@ -542,16 +542,16 @@ bodyタグの中に下記を入力していきましょう
  ```
 
  　と入力しましょう。　
-![img-tag21](https://job555.info/wp-content/uploads/2020/05/img-tag21.png)
+![img-tag21](https://blog.job555.info/wp-content/uploads/2020/06/img-tag21.png)
 
 
 #### プレビュー機能を使いましょう。
-![img-tag22](https://job555.info/wp-content/uploads/2020/05/img-tag22.png)
+![img-tag22](https://blog.job555.info/wp-content/uploads/2020/06/img-tag22.png)
 パッケージ＞Markdown Preview > Toggle Preview の順にクリックしていきます。
 
 一番右側にお問い合わせフォームが表示されました。
 
-![img-tag23](https://job555.info/wp-content/uploads/2020/05/img-tag23.png)
+![img-tag23](https://blog.job555.info/wp-content/uploads/2020/06/img-tag23.png)
 
 bodyタグの中に下記を入力していきましょう
 ```
@@ -619,7 +619,7 @@ previewタブの画面には　上の画像のように表示だけされたは�
 
 この2つができたはずです。
 
-![img-tag24](https://job555.info/wp-content/uploads/2020/05/img-tag24.png)
+![img-tag24](https://blog.job555.info/wp-content/uploads/2020/06/img-tag24.png)
 
 もしうまく表示されていない場合は、上のコードをコピペしてみてください。
 そうするとうまくいくはずです。
@@ -628,7 +628,7 @@ previewタブの画面には　上の画像のように表示だけされたは�
 ##### できたフォームに入力してみましょう
 フォームの中に、「初めまして」と入力して、送信してみましょう。
 
-![img-tag25](https://job555.info/wp-content/uploads/2020/05/img-tag25.png)
+![img-tag25](https://blog.job555.info/wp-content/uploads/2020/06/img-tag25.png)
 
 入力したら、「Submit」を
 クリックしてみます。
@@ -640,7 +640,7 @@ previewタブの画面には　上の画像のように表示だけされたは�
 
 見た目ついては、このようにフォームを作ることができます。
 
-![img-tag26](https://job555.info/wp-content/uploads/2020/05/img-tag26.png)
+![img-tag26](https://blog.job555.info/wp-content/uploads/2020/06/img-tag26.png)
 
 form開始タグと、form終了タグの間に入っているものが、フォームとして機能します。
 
@@ -672,7 +672,7 @@ form開始タグと、form終了タグの間に入っているものが、フォ
 ```
 <input type="password" name="">
 ```
-![img-tag27](https://job555.info/wp-content/uploads/2020/05/img-tag27.png)
+![img-tag27](https://blog.job555.info/wp-content/uploads/2020/06/img-tag27.png)
 
 フォームが2つできましたね。
 
@@ -692,20 +692,20 @@ form開始タグと、form終了タグの間に入っているものが、フォ
 下記の画像のようになりました。
 これで、なんのフォームかわかるようになりましたが、少々見にくいです。改行を入れましょう。
 
-![img-tag28](https://job555.info/wp-content/uploads/2020/05/img-tag28.png)
+![img-tag28](https://blog.job555.info/wp-content/uploads/2020/06/img-tag28.png)
 改行は下記コードです。
 ```
 <br>
 ```
 
-![img-tag29](https://job555.info/wp-content/uploads/2020/05/img-tag29.png)
+![img-tag29](https://blog.job555.info/wp-content/uploads/2020/06/img-tag29.png)
 
 この画像のように入力していきます。
 見やすくなりました。
 
 #### データベースが判断できるように、nameをつけます。
 
-![img-tag30](https://job555.info/wp-content/uploads/2020/05/img-tag30.png)
+![img-tag30](https://blog.job555.info/wp-content/uploads/2020/06/img-tag30.png)
 
 Previewの部分を見ると、名前と、パスワードが入力されています。
 
@@ -717,7 +717,7 @@ Previewの部分を見ると、名前と、パスワードが入力されてい�
 
 下記画像のように入力します。
 
-![img-tag31](https://job555.info/wp-content/uploads/2020/05/img-tag31.png)
+![img-tag31](https://blog.job555.info/wp-content/uploads/2020/06/img-tag31.png)
 
 このように名前付けすることで、実際にフォームからデータを取ってくる時などに、「なんのデータを取ってくるのか」を指定できるようになります。
 
@@ -738,14 +738,14 @@ HTML5では、
 ***
 
 ### inputタグのSubmitを「送信」に書き換える
-![img-tag32](https://job555.info/wp-content/uploads/2020/05/img-tag32.png)
+![img-tag32](https://blog.job555.info/wp-content/uploads/2020/06/img-tag32.png)
 この部分が送信ボタンと見ればわかる感じにはなっているのですが、ホームページのユーザーにとってはあまり親切ではありません。
 
 わかりやすいように、日本語で「送信」と書き換えてあげましょう。
 
 そうすることで、「なんかわかりにくいし、怪しい」と思われてしまうことを防ぐことができます。
 
-![img-tag33](https://job555.info/wp-content/uploads/2020/05/img-tag33.png)
+![img-tag33](https://blog.job555.info/wp-content/uploads/2020/06/img-tag33.png)
 
 
 ***
@@ -760,26 +760,26 @@ HTML5では、
 そのために、チェックボックスを使いましょう。
 
 まずは、inputタグを使うために、Googleで「inputタグ」と検索しましょう。
-![img-tag34](https://job555.info/wp-content/uploads/2020/05/img-tag34.png)
+![img-tag34](https://blog.job555.info/wp-content/uploads/2020/06/img-tag34.png)
 
 
 とりあえず、「INPUT－HTMLタグリファレンス - HTMLクイックリファレンス」を見て見ます。
 
-![img-tag35](https://job555.info/wp-content/uploads/2020/05/img-tag35.png)
+![img-tag35](https://blog.job555.info/wp-content/uploads/2020/06/img-tag35.png)
  少しスクロールして、属性の項目の、「type="checkbox"」をクリックすると、
  使い方が出てきます。
-![img-tag36](https://job555.info/wp-content/uploads/2020/05/img-tag36.png)
+![img-tag36](https://blog.job555.info/wp-content/uploads/2020/06/img-tag36.png)
  これをコピペして使って見ましょう。
 
-![img-tag37](https://job555.info/wp-content/uploads/2020/05/img-tag37.png)
+![img-tag37](https://blog.job555.info/wp-content/uploads/2020/06/img-tag37.png)
 コピペするのはこのpタグの部分だけです。
 
-![img-tag38](https://job555.info/wp-content/uploads/2020/05/img-tag38.png)
+![img-tag38](https://blog.job555.info/wp-content/uploads/2020/06/img-tag38.png)
 この部分にペーストします。
 
 次に、**「面白い　役立つ　いまいち」を飲食店のメニュー用に「ゴーヤチャンプル700円　フーチャンプル700円　ソーキソバ700円」**に書き換えます。
 
-![img-tag39](https://job555.info/wp-content/uploads/2020/05/img-tag39.png)
+![img-tag39](https://blog.job555.info/wp-content/uploads/2020/06/img-tag39.png)
 これで、注文にチェックを入れれば良いだけになりました。
 ちょっとこのままでは使いにくいので、少し修正しましょう
 
@@ -790,14 +790,14 @@ HTML5では、
 
 この3つをやって見ましょう。
 
-![img-tag40](https://job555.info/wp-content/uploads/2020/05/img-tag40.png)
+![img-tag40](https://blog.job555.info/wp-content/uploads/2020/06/img-tag40.png)
 - ご注文フォームに変えました。
 - 注意書きを加えました。
 
-![img-tag41](https://job555.info/wp-content/uploads/2020/05/img-tag41.png)
+![img-tag41](https://blog.job555.info/wp-content/uploads/2020/06/img-tag41.png)
 - passwordを消します。
 
-![img-tag42](https://job555.info/wp-content/uploads/2020/05/img-tag42.png)
+![img-tag42](https://blog.job555.info/wp-content/uploads/2020/06/img-tag42.png)
 これで、ある程度**機能するフォームができました。**
 
 他にも、下記の機能を加えると便利になります。
@@ -816,10 +816,10 @@ HTML5では、
 
 下記を入力します。
 ```
-<a href="https://job555.info">会社ホームページ</a>
+<a href="https://blog.job555.info">会社ホームページ</a>
 ```
 
- ![img-tag43](https://job555.info/wp-content/uploads/2020/05/img-tag43.png)
+ ![img-tag43](https://blog.job555.info/wp-content/uploads/2020/06/img-tag43.png)
 
 これで、ホームページへのリンクができました。
 とりあえずリンク先は私のブログになっていますが、このリンクを変えることで、自社のホームページへリンクを変えることができます。
@@ -829,13 +829,13 @@ HTML5では、
 
 
 先ほどのページの「会社ホームページ」をクリックして見ます。
-![img-tag44](https://job555.info/wp-content/uploads/2020/05/img-tag44.png)
+![img-tag44](https://blog.job555.info/wp-content/uploads/2020/06/img-tag44.png)
 
 すると、ブログが開きました。
-![img-tag45](https://job555.info/wp-content/uploads/2020/05/img-tag45.png)
+![img-tag45](https://blog.job555.info/wp-content/uploads/2020/06/img-tag45.png)
 このように、
 ```
-<a href="https://job555.info">会社ホームページ</a>
+<a href="https://blog.job555.info">会社ホームページ</a>
 ```
 
 とリンクを作ることで、別ページに飛ぶリンクを作ることができました。
@@ -865,7 +865,7 @@ idはclassとは違って、1つのページに同じ名前のidを一つだけ�
 
 先ほどの
 ```
-<a href="https://job555.info">会社ホームページ</a>
+<a href="https://blog.job555.info">会社ホームページ</a>
 ```
 のしたに、下記を入力します。
 ```
@@ -877,7 +877,7 @@ idはclassとは違って、1つのページに同じ名前のidを一つだけ�
 ```
 このように入力すると、
 
-![img-tag46](https://job555.info/wp-content/uploads/2020/05/img-tag46.png)
+![img-tag46](https://blog.job555.info/wp-content/uploads/2020/06/img-tag46.png)
 １行ずつ表示されますが、赤くはなっていません。
 
 ここで、赤くするために
@@ -893,7 +893,7 @@ id="red"をpタグにつけます。
 ```
 では入力して見ましょう。
 
-![img-tag47](https://job555.info/wp-content/uploads/2020/05/img-tag47.png)
+![img-tag47](https://blog.job555.info/wp-content/uploads/2020/06/img-tag47.png)
 ***
 
 ではフーチャンプルもオススメにしたいので、ゴーヤチャンプルと同じように赤くしたい。という場合、下記のようになります。
@@ -918,7 +918,7 @@ id="red"をpタグにつけます。
 <p>ソーキソバ</p>
 ```
 **これで大丈夫です。**
-![img-tag48](https://job555.info/wp-content/uploads/2020/05/img-tag48.png)
+![img-tag48](https://blog.job555.info/wp-content/uploads/2020/06/img-tag48.png)
 
 このように、 class="red"で指定しておくことで、
 後ほどCSSで**class="red"は赤色にする**と指定してあげることで、指定した部分はいくつでも赤にすることができます。
@@ -961,7 +961,7 @@ id="menu"で囲みました。
 
 divタグは大きいものに使いspanタグは小さいものに使います。
 
-![img-tag49](https://job555.info/wp-content/uploads/2020/05/img-tag49.png)
+![img-tag49](https://blog.job555.info/wp-content/uploads/2020/06/img-tag49.png)
 divタグは、ゴーヤチャンプル、フーチャンプル、ソーキソバの３行を1つのまとまりにしています。
 
 div class="menu"に対して、cssを指定することで、**背景色を変えたり、サイズを指定したり、divタグの中の全てpタグの文字の色を変えたり**できます。
@@ -971,13 +971,13 @@ span class"foodstuff"に対して、cssを指定することで、**背景色を
 
 
 ### ブロック要素と、インライン要素
-![img-tag50](https://job555.info/wp-content/uploads/2020/05/img-tag50.png)
+![img-tag50](https://blog.job555.info/wp-content/uploads/2020/06/img-tag50.png)
 
 
 - divタグを並べると、改行が入ります。
 - 背景色を入れると、divタグの端まで表示されます。
 
-![img-tag51](https://job555.info/wp-content/uploads/2020/05/img-tag51.png)
+![img-tag51](https://blog.job555.info/wp-content/uploads/2020/06/img-tag51.png)
 - pタグの中に複数使えます
 - 改行は自動ではされません
 - 囲んだ部分だけ、背景色が変わっています。
@@ -990,8 +990,8 @@ span class"foodstuff"に対して、cssを指定することで、**背景色を
 
 
 Webサイトは、一定のまとまりがあります。
-![img-tag52](https://job555.info/wp-content/uploads/2020/05/img-tag52.png)
-![img-tag53](https://job555.info/wp-content/uploads/2020/05/img-tag53.png)
+![img-tag52](https://blog.job555.info/wp-content/uploads/2020/06/img-tag52.png)
+![img-tag53](https://blog.job555.info/wp-content/uploads/2020/06/img-tag53.png)
 上の画像の通り、header(ヘッダー) nav(ナビゲーション) ボディー(body) footer(フッター)
 です。
 基本的にWebサイトは上の画像の通りで、
@@ -1007,7 +1007,7 @@ Webサイトは、一定のまとまりがあります。
 
 ### Webサイトは上の順番で、入れ子構造になっている。
 
-![img-tag54](https://job555.info/wp-content/uploads/2020/05/img-tag54.png)
+![img-tag54](https://blog.job555.info/wp-content/uploads/2020/06/img-tag54.png)
 このインデントの書き方が、プログラミングで共通で大切な書き方になります。
 ```
 例えば、普通にかくと
@@ -1052,7 +1052,7 @@ pを一つ奥に入れています。
 
 ```
 このように書くと、Webサイト上では、
-![img-tag55](https://job555.info/wp-content/uploads/2020/05/img-tag55.png)
+![img-tag55](https://blog.job555.info/wp-content/uploads/2020/06/img-tag55.png)
 コメントの部分は見れません。
 
 これが「コメントアウト」という使い方です。
@@ -1093,7 +1093,7 @@ pを一つ奥に入れています。
 ```
 これで、予定したコメントが見れるようになりました。
 
-![img-tag56](https://job555.info/wp-content/uploads/2020/05/img-tag56.png)
+![img-tag56](https://blog.job555.info/wp-content/uploads/2020/06/img-tag56.png)
 
 ***
 
