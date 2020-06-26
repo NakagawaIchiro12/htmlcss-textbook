@@ -67,7 +67,7 @@ Atomエディタの画面上のナビゲーションメニューから、
 その中に演習用素材からダウンロードした素材を入れてください。
 
 ### ダウンロードページ
-https://job555.info/html-css/
+https://blog.job555.info/html-css/
 
 ダウンロードページのパスワード：htmlcss
 
